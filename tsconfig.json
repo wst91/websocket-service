@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",    //编译成es5
+    "module": "commonjs",   //编译用的模块
+    "emitDecoratorMetadata": true,   //保留装饰器的元数据
+    "experimentalDecorators": true,   //保留装饰器的元数据
+    "outDir": "build",   //编译后的文件路径
+    "lib": [ "es6"]    //编译用es6语法
+  },
+  "exclude": [
+    "node_modules"   //编译时排除的文件
+  ]
+}
